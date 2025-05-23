@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "scripts": {
+    "test": "bun test",
+    "build": "bun build --target=node --outfile=dist/main.js src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.14"
+  }
+}

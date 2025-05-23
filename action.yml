@@ -1,0 +1,8 @@
+name: "Test Action"
+description: "A general test action 🤫!"
+branding:
+  icon: square
+  color: black
+runs:
+  using: "node16"
+  main: "./dist/main.js"
